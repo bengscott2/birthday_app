@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class BirthdayGreeter < Sinatra::Base
   get '/' do
-    'Happy Birthday'
+    'Testing infrastructure working!'
   end
 
   run! if app_file == $0
