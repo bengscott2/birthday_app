@@ -6,7 +6,7 @@ feature 'Tell user how many days until their birthday' do
       fill_in :month, with: '04'
       fill_in :day, with: '10'
       click_button 'Go'
-      expect(page).to have_content 'Your birthday will be in 100 days, John'
+      expect(page).to have_content 'Your birthday will be in 99 days, John'
     end
   end
 end
